@@ -2,9 +2,9 @@ package com.kh.board.member;
 
 public class Member {
 	
-	private String title;
-	private  int age;
-	private String subject;
+	String title;
+	int age;
+	String subject;
 	public Member(String title, int age, String subject) {
 		super();
 		this.title = title;
