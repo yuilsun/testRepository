@@ -1,10 +1,10 @@
-package com.kh.git.board.member;
+package com.kh.board.member;
 
 public class Member {
 	
-	String title;
-	 int age;
-	 String subject;
+	private String title;
+	private  int age;
+	private String subject;
 	public Member(String title, int age, String subject) {
 		super();
 		this.title = title;
@@ -33,7 +33,7 @@ public class Member {
 	public String toString() {
 		return "Member [title=" + title + ", age=" + age + ", subject=" + subject + "]";
 	}
-	 
-	 
+	
+	
 
 }
